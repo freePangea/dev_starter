@@ -7,3 +7,5 @@ If the group already exist, the User will be added to the group, if he's not alr
 To calculate due, enter the groupname and the month (default is whole year) in the 2nd form. Results get printed on server console
 
 After each calculation of due, you can check the db.customUsers.find() in the mongo shell. Each user has the balance of the last calculation to verify results if necessary
+
+...Could do some Performance/Code optimization, but functionality should be provided
